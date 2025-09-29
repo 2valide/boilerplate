@@ -1,31 +1,27 @@
-# Fichiers de configuration sensibles
-/.env
-/.env.local
-/.env.*.local
+# Environnement PHP
+.env
+.env.local
+.env.*.local
+
+# Composer
 /vendor/
-/node_modules/
+/composer.lock
 
-# Logs
+# Logs et cache
 *.log
-error_log
-
-# Cache et sessions
 /cache/
 /sessions/
 /tmp/
 
-# Fichiers PHPStorm et autres IDE
-../.idea/
+# IDE et éditeurs
+.idea/
 /.vscode/
 
-# Configs serveur Apache / PHP spécifiques
+# Configs serveur
 /.htaccess
-/user.ini
 /php.ini
+/user.ini
 
-# Fichiers système
+# Systèmes d'exploitation
 .DS_Store
 Thumbs.db
-
-# Composer
-/composer.lock
