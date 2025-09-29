@@ -15,7 +15,7 @@ error_log
 /tmp/
 
 # Fichiers PHPStorm et autres IDE
-.idea/
+../.idea/
 /.vscode/
 
 # Configs serveur Apache / PHP spécifiques
